@@ -1,4 +1,6 @@
 __pycache__
 model.npy
 houses.csv
+output/*
+!output/.gitkeep
 
