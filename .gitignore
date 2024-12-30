@@ -1,4 +1,5 @@
 __pycache__
+model.npz
 model.npy
 houses.csv
 output/*

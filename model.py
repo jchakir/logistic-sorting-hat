@@ -217,7 +217,8 @@ class Model:
 
     def save(self, filename: str) -> None:
         params = { house: np.append(w, b) for house, (w, b) in self.__parameters.items() }
-        np.savez(filename, **params, allow_pickle=False)
+        # np.savez(filename, **params, allow_pickle=False)
+        np.savez(filename, **params)
 
 
     def test(self, x: np.ndarray, y: np.ndarray) -> tuple[float, float]:
